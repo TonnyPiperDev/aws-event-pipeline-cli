@@ -1,0 +1,51 @@
+# CRITICAL: Environment files with real values
+.env
+.env.*
+*.env
+config.json
+secrets.json
+
+# CRITICAL: AWS credentials and config
+.aws/
+credentials
+config
+*.pem
+*.key
+
+# CRITICAL: Any files containing actual ARNs, account IDs, emails
+*-deployed.json
+*-actual.json
+deployment-output.txt
+resource-arns.txt
+
+# Lambda deployment packages
+*.zip
+node_modules/
+package-lock.json
+
+# Logs that might contain sensitive data
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# Python
+__pycache__/
+*.pyc
+
+# Backup files that might contain real values
+*.backup
+backup/
