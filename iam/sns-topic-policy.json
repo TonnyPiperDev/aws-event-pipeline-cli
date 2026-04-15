@@ -1,0 +1,19 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowEventBridgePublish",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "events.amazonaws.com"
+      },
+      "Action": "SNS:Publish",
+      "Resource": "arn:aws:sns:eu-central-1:510701314701:event-notifications",
+      "Condition": {
+        "ArnEquals": {
+          "aws:SourceArn": "arn:aws:events:eu-central-1:510701314701:rule/event-notification-rule"
+        }
+      }
+    }
+  ]
+}
