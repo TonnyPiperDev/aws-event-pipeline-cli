@@ -49,3 +49,5 @@ __pycache__/
 # Backup files that might contain real values
 *.backup
 backup/
+setup-env.sh
+setup-env.sh
