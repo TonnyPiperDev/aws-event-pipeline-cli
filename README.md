@@ -7,7 +7,7 @@ This project builds an event-driven notification system using AWS serverless ser
 **Real-world use case:** Multi-tenant SaaS applications routing events (user signups, payment failures, system alerts) to different consumers (ops Slack, support emails, audit logs, billing systems) without tight coupling between components.
 
 ## Architecture
-![Architecture Diagram](architecture-diagram.png)
+![Architecture Diagram](architecture-diagram.svg)
 
 ## AWS Services Used
 
