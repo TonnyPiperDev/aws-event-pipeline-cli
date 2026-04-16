@@ -77,7 +77,7 @@ This project builds an event-driven notification system using AWS serverless ser
 
 ## Deployment
 
-See the deployment guide for step-by-step CLI instructions (to be created).
+See [docs/deployment-guide.md](docs/deployment-guide.md) for complete step-by-step CLI deployment instructions.
 
 ## Project Structure
 ```
